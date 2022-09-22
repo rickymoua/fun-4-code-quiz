@@ -1,29 +1,24 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
 }
 
-.hidden {
-    display:none;
-}
-
-.start {
+.screen-start {
     text-align: center;
 }
 
-.scores {
-    top: 20%;
-    left: auto;
+.ending-screen {
+    text-align: center;
 }
-
-.time {
-    top: 20%;
-    left: auto;
+.timer {
+    text-align: right;
 }
-
-.choices button {
-    display: block;
-}
-
 button {
+    color: white;
+    border-color: purple;
+    background-color: purple;
+    font-bold: bold
     font-family: 'Courier New', Courier, monospace;
-    display: block;
+    border-radius: 10px;
+}
+
