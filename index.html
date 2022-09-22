@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web api quiz</title>
+    <link rel="stylesheet" href="./css/style.ss">
+</head>
+
+<body>
+    <section class = "scores">
+
+    </section>
+
+    <section class="timer">
+        <span id="timer">0</span>
+    </section>
+    
+    <section id="screen-start" class="hidden">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+           Get ready to take a challenge on javaScript fundamental and see how much you learned so far. 
+        </p>
+        <button id="start">
+            start Quiz
+        </button>
+    </section>
+
+    <section id=""questions" class="hidden">
+        <h2 id="title-question"></h2>
+        <div id="choices" class="choices"></div>
+    </section>
+
+    <section id="ending-screen" class="hidden">
+        <h2>Great job coming this far!  </h2>
+        <p>
+            score shown is your final score
+            <span id="score-final"></span>
+        </p>
+        <p>
+            Input initial in designated area as shown 
+            <input type="text" id="score-initial" max="2">
+            <button id="submit">submit</button>
+        </p>
+    </section>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
