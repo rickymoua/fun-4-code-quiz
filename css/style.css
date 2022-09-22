@@ -9,3 +9,21 @@ body {
 .start {
     text-align: center;
 }
+
+.scores {
+    top: 20%;
+    left: auto;
+}
+
+.time {
+    top: 20%;
+    left: auto;
+}
+
+.choices button {
+    display: block;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
